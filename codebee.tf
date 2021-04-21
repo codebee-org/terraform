@@ -8,7 +8,7 @@ terraform {
     organization = "codebee"
 
     workspaces {
-      name = "codebee-dev"
+      name = "codebee-prod"
     }
   }
 }
