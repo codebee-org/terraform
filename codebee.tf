@@ -14,6 +14,6 @@ terraform {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "codebee-getting-started-examples"
+  bucket = "codebee-getting-started-terraform"
   acl    = "private"
 }
