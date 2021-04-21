@@ -1,4 +1,4 @@
 variable "region" {}
 variable "amis" {
-    type = "map"
+  type = map(string)
 }
